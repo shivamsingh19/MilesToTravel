@@ -1,0 +1,53 @@
+
+
+p {
+  margin: 0;
+}
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #304FFE;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover {
+    opacity: 0.8;
+  }
+
+  svg:hover {
+    fill: #ff3f3f;
+  }
+
+  svg {
+    fill: white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  
+.miles {
+  flex-direction: row;
+  cursor: pointer;
+  display: contents;
+}
