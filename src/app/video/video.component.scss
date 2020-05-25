@@ -29,3 +29,27 @@
   text-shadow: 2px 2px gainsboro;
   font-size: 40px;
 }
+
+
+.youtube-sub {
+  margin: auto;
+  background-color: #ff3f3f;
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    padding: .8em 1.2em;
+    border-radius: 35px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+.youtube-sub:hover {
+  transform: scale(1.5);
+}
+
