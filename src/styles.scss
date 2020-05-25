@@ -4,8 +4,30 @@ html, body { height: vh; }
 body { margin: 0; 
  }
 
+ @font-face {
+  font-family: Vollkorn-BlackItalic;
+  src: url(/assets/font/Vollkorn-BlackItalic.ttf) format("truetype");
+}
 
-  h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif !important}
+@font-face {
+  font-family: Vollkorn-ExtraBoldItalic;
+  src: url(/assets/font/Vollkorn-ExtraBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Vollkorn-BoldItalic;
+  src: url(/assets/font/Vollkorn-BoldItalic.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: Vollkorn-Italic;
+  src: url(/assets/font/Vollkorn-Italic.ttf) format("truetype");
+}
+
+
+  h1,h2,h3,h4,h5 {font-family: "Vollkorn-ExtraBoldItalic";
+    font-weight: bold;}
    /* Responsive Styles */
    @media screen and (max-width: 767px) {
 
